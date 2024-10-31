@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
+
+body{
+    margin: 0;
+}
+
+
+@media screen and (width<=1000px){
+    h1{
+        font-size: 40pt;
+    }
+}
+
+
+
+
+
+h1{
+    font-family: "Julius Sans One", system-ui;
+    font-size: 60pt;
+    font-weight: normal;
+    text-align: left;
+    margin: 0;
+    line-height: 1;
+    color: #00506D;
+    line-height: 90pt;
+    padding-left: 40px;
+}
+#logo{
+    margin-left: 40px;
+}
+.larger-text{
+    font-size: 96pt;
+}
+.link {
+    justify-content: center;
+}
+p{ text-align: center;
+    margin-bottom: 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 15pt;
+    display: flex;
+    gap: 50px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #edeed9b1;
+}
+.top{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-image:url("HERO.jpg") ;
+    background-size: cover;
+}
+title {
+    justify-content: center;
+    align-items: center;
+}
+/* div {
+    background-color: #edeed9b1;
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+} */
+nav a {color: #00506D;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+    font-size: 15pt;
+    }
+
+    #mystory-btn {
+        padding: 10px;
+        background-color: #00506D;
+        text-decoration: none;
+        color: white;
+        border-radius: 50px;
+        font-size: 16pt;
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        max-width: 10%;
+        text-align: center;
+        font-family: "Playfair Display", system-ui;
+        margin-left: 40px;
+    }
+        h2{
+            font-family: "Julius Sans One", system-ui;
+            font-size: 60pt;
+            color: #EDEED9;
+            font-weight: normal;
+            text-align: center;
+            margin: 0;
+            line-height: 1;
+            background-color: #00506D;
+            line-height: 96pt;
+    }
+    
+    .cards{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #00506D;
+        list-style: none;
+        margin: 0;
+        padding: 40px;
+        gap: 15px;
+    }
+    .card{
+text-align: center;
+color: #00506D;
+        background-color: #EDEED9;
+padding: 15px 15px 50px 15px;
+    }
+    .cards img{
+        border: 15px solid #00506D;
+        margin: 15px;
+    }
+    .reviews{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #00506D;
+        list-style: none;
+        margin: 0;
+        padding: 40px;
+        gap: 15px;
+        border: none;
+    }
+    .reviews .card{
+        border-radius: 15px;
+        position: relative;
+    }
+    .reviews .card:after {
+        content:"";
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        background: #EDEED9;
+        transform: translateX(-50%) translateY(-50%) rotate(45deg);
+        top: 100%;
+        left: 50%;
+      }
+      .Files{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #00506D;
+        padding: 40px;
+        gap: 15px;
+        border: none;
+      }
+      .SocialMedia{
+        text-align: center;
+        padding: 0;
+        margin: none;
+        background-color: #00506D;
+      }
+     footer{
+        display: flex;
+        flex-direction: column;
+        background-color: #00506D;
+        text-decoration: none;
+        font-family: "lato", serif;
+    font-size: 16pt;
+    text-align: center;
+    color: #EDEED9;
+     }
